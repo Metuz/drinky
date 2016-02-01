@@ -5,8 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first
-Drinky.create!(title: "Margarita")
-Drinky.create!(title: "Medias de Seda")
-Drinky.create!(title: "Ice Tea")
-Drinky.create!(title: "Capuchino")
-Drinky.create!(title: "Cafe")
+Drink.create!(title: "Margarita")
+Drink.create!(title: "Medias de Seda")
+Drink.create!(title: "Ice Tea")
+Drink.create!(title: "Capuchino")
+Drink.create!(title: "Cafe")
+
+p "Drinkies created: #{Drink.all.count}"

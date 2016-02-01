@@ -35,6 +35,7 @@ group :development, :test  do
  	gem 'byebug', '3.4.0'
  	gem 'spring', '1.1.3'
   gem "rails-erd"
+  gem 'rspec-rails', '~> 3.0'
 end
 group :test do
 	gem 'minitest-reporters', '1.0.5'
