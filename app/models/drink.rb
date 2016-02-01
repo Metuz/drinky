@@ -1,3 +1,3 @@
 class Drink < ActiveRecord::Base
-  validates :title, presence: true, length: { in: 5..30 }
+  validates :title, presence: true, length: { in: 4..30 }
 end
