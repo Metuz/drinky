@@ -4,6 +4,7 @@
   <strong>Title:</strong>
   <%= @drink.title %>
 </p>
+<%= image_tag @drink.image.url(:thumb) %>
 
 <%= link_to 'Edit', edit_drink_path(@drink) %> |
 <%= link_to 'Back', drinks_path %>
