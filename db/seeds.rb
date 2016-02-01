@@ -4,4 +4,9 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   Mayor.create(name: 'Emanuel', city: cities.first
+Drinky.create!(title: "Margarita")
+Drinky.create!(title: "Medias de Seda")
+Drinky.create!(title: "Ice Tea")
+Drinky.create!(title: "Capuchino")
+Drinky.create!(title: "Cafe")
